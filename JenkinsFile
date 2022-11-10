@@ -26,11 +26,9 @@ pipeline{
 
     }
     post { 
-        steps {
-            always{
-                echo 'we have finisehd the pipline'
-            }
-        }
+       always{
+           echo 'we have finisehd the pipline'
+       }
     }
 
 }
